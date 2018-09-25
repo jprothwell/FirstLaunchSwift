@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import FirstLaunchSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        if FirstLaunch.isFirstLaunch()  {
+            print("第一次启动")
+            _ = FirstLaunch.saveFirstLaunch()
+        }
+        else{
+            print("非第一次启动")
+        }
+        
         return true
     }
 
