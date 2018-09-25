@@ -16,7 +16,7 @@
 		9698C7C684D148BDCAA03E22B93AB565 /* Pods-FirstLaunchSwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E6D4D682B56346A136016D13DDFACA /* Pods-FirstLaunchSwift_Example-dummy.m */; };
 		AE3EBE95F5817426CD72F11EC8FE3017 /* FirstLaunchSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CB091DD442C42E2F2E90521FA97BE14 /* FirstLaunchSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C854AD4470954CAA8247D1C17B21F0A6 /* FirstLaunchSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 917DF8D6EEDD38FFC271530EDAFE51EA /* FirstLaunchSwift-dummy.m */; };
-		CC160945FC13C9E68DB9B82DD35E0D74 /* FirstLauch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37538F4B6159F2D356DCAAD16787E840 /* FirstLauch.swift */; };
+		CC160945FC13C9E68DB9B82DD35E0D74 /* FirstLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37538F4B6159F2D356DCAAD16787E840 /* FirstLaunch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,7 @@
 		0CB091DD442C42E2F2E90521FA97BE14 /* FirstLaunchSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FirstLaunchSwift-umbrella.h"; sourceTree = "<group>"; };
 		16E6D4D682B56346A136016D13DDFACA /* Pods-FirstLaunchSwift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FirstLaunchSwift_Example-dummy.m"; sourceTree = "<group>"; };
 		1AE589BDE14D214AF20EF853570F9C59 /* Pods-FirstLaunchSwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FirstLaunchSwift_Example.modulemap"; sourceTree = "<group>"; };
-		37538F4B6159F2D356DCAAD16787E840 /* FirstLauch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FirstLauch.swift; path = FirstLaunchSwift/Classes/FirstLauch.swift; sourceTree = "<group>"; };
+		37538F4B6159F2D356DCAAD16787E840 /* FirstLaunch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FirstLaunch.swift; path = FirstLaunchSwift/Classes/FirstLaunch.swift; sourceTree = "<group>"; };
 		380500E26D2BFA4B305B195D8DBD885C /* Pods-FirstLaunchSwift_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FirstLaunchSwift_Tests-resources.sh"; sourceTree = "<group>"; };
 		43A268E082FE42FD7DEFA7FA2BA1DAC8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49C43C4A0B0FF23EC404A8E04D1246D6 /* Pods-FirstLaunchSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FirstLaunchSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -211,7 +211,7 @@
 		98F9BA789B82D9FD9827BD13DB517814 /* FirstLaunchSwift */ = {
 			isa = PBXGroup;
 			children = (
-				37538F4B6159F2D356DCAAD16787E840 /* FirstLauch.swift */,
+				37538F4B6159F2D356DCAAD16787E840 /* FirstLaunch.swift */,
 				0D699A04663A4E9767B2866724837F15 /* Pod */,
 				0AA9EE6E42FA1031F4C4C9E8CD2A4EB4 /* Support Files */,
 			);
@@ -352,7 +352,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C854AD4470954CAA8247D1C17B21F0A6 /* FirstLaunchSwift-dummy.m in Sources */,
-				CC160945FC13C9E68DB9B82DD35E0D74 /* FirstLauch.swift in Sources */,
+				CC160945FC13C9E68DB9B82DD35E0D74 /* FirstLaunch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
