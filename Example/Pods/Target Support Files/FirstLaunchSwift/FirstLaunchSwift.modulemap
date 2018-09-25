@@ -1,0 +1,6 @@
+framework module FirstLaunchSwift {
+  umbrella header "FirstLaunchSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

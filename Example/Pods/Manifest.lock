@@ -1,0 +1,16 @@
+PODS:
+  - FirstLaunchSwift (0.1.0)
+
+DEPENDENCIES:
+  - FirstLaunchSwift (from `../`)
+
+EXTERNAL SOURCES:
+  FirstLaunchSwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FirstLaunchSwift: 5ab5d552e58c69f5f732e4bb29ae093e6dd52030
+
+PODFILE CHECKSUM: 35e4c05b9b31ac31d0e1dd999391cb2d33de8862
+
+COCOAPODS: 1.5.3
