@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         if FirstLaunch.isFirstLaunch()  {
             print("第一次启动")
-            _ = FirstLaunch.saveFirstLaunch()
+            FirstLaunch.saveFirstLaunch()
         }
         else{
             print("非第一次启动")
